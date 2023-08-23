@@ -1,0 +1,92 @@
+:root {
+  background-color: darkgray;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#drag-drop-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.default-border {
+  border: 2px solid cyan;
+}
+
+.highlight-border {
+  border: 2px solid salmon;
+}
+
+.container {
+  width: 200px;
+  height: 230px;
+  padding: 10px;
+  text-align: center;
+}
+
+.container> label{
+  color: white;
+}
+
+#drag-img {
+  width: 200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.highlight-destination-drag {
+  border: 2px solid cyan;
+  padding: 5px 5px;
+  text-align: center;
+}
+
+
+#reset {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  background-color: rgb(75, 176, 243);
+  border-style: none;
+  border-radius: 5px;
+  color: white;
+  align-self: flex-end;
+}
+
+#reset:hover {
+  background-color: tomato;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#main-page {
+  text-decoration: none;
+  display: block;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  background-color: rgb(75, 176, 243);
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+#main-page:hover {
+  background-color: tomato;
+}

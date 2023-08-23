@@ -1,0 +1,62 @@
+:root {
+    background-color: azure;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#test-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+#test-button {
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(75, 176, 243);
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+}
+
+#test-button:hover {
+    background-color: tomato;
+}
+
+#result-area {
+    margin-top: 20px;
+    border: 2px solid grey;
+    display: block;
+    width: 80%;
+    height: 400px
+}
+
+#nav-to-tests {
+    margin-top: 150px;
+    text-align: center;
+    border: 2px solid salmon;
+    border-radius: 5px;
+    width: 50%;
+    padding: 15px 15px;
+    display: grid;
+    place-items: center;
+}
+
+#nav-to-tests>a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+    margin: 5px 5px;
+    background-color: rgb(75, 176, 243);
+    width: 50%;
+    border-radius: 5px;
+    color: white;
+}
+
+#nav-to-tests>a:hover {
+    background-color: tomato;
+}
